@@ -69,7 +69,7 @@ const DEFAULT_DURATION = 220;
  *     return (
  *       <Provider>
  *          <Portal>
- *            <Modal visible={visible} onDismiss={this._hideModal}>
+ *            <Modal visible={this.state.visible} onDismiss={this._hideModal}>
  *              <Text>Example Modal</Text>
  *            </Modal>
  *            <Button
